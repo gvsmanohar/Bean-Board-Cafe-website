@@ -12,7 +12,18 @@ const navItems = [
     { name: 'Events', href: '#events' },
     { name: 'Contact', href: '#contact' },
 ];
+// components/Sections/Hero.tsx
+// ...
+<div className="relative h-screen w-full flex items-center justify-center overflow-hidden bg-bb-green-dark">
 
+    {/* 🟢 This line uses the image you placed in /public/images */}
+    <div
+        className="absolute inset-0 bg-cover bg-center opacity-60"
+        style={{ backgroundImage: 'url(/images/hero-forest.jpg)' }}
+    />
+
+    {/* ... rest of the component ... */}
+</div>
 export default function Header() {
     return (
         // Fixed Header that fades in after a short delay
