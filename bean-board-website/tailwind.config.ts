@@ -1,8 +1,11 @@
-// tailwind.config.ts
+// tailwind.config.ts (You should already have this)
 import type { Config } from 'tailwindcss';
 
 const config: Config = {
-    content: ['./app/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
+    content: [
+        './app/**/*.{js,ts,jsx,tsx,mdx}',
+        './components/**/*.{js,ts,jsx,tsx,mdx}',
+    ],
     theme: {
         extend: {
             colors: {
@@ -12,9 +15,9 @@ const config: Config = {
                 'bb-stone': '#2A2A2A',         // Dark Text/Elements (Natural Stone)
             },
             fontFamily: {
-                // You would define a custom font here
-                // sans: ['Inter', 'sans-serif'], 
-                // serif: ['Cormorant Garamond', 'serif'],
+                // We will define a custom serif font for headers (like a tree's texture)
+                // You'll need to import this in layout.tsx later.
+                serif: ['Cormorant Garamond', 'serif'],
             },
         },
     },
