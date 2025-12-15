@@ -32,7 +32,7 @@ export default function Header() {
             initial={{ y: -50, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 1.0 }} // Delay fade-in until Hero text is done
-            className="fixed top-0 left-0 right-0 z-40 bg-bb-green-dark/70 backdrop-blur-sm shadow-lg text-bb-earth py-4"
+            className="fixed top-0 left-0 right-0 z-40 text-bb-earth py-4"
         >
             <nav className="max-w-7xl mx-auto flex justify-between items-center">
 
