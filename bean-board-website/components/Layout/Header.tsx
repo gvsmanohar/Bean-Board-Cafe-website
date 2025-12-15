@@ -34,7 +34,7 @@ export default function Header() {
             transition={{ duration: 0.5, delay: 1.0 }} // Delay fade-in until Hero text is done
             className="fixed top-0 left-0 right-0 z-40 bg-bb-green-dark/70 backdrop-blur-sm shadow-lg text-bb-earth py-4"
         >
-            <nav className="max-w-7xl mx-auto flex justify-between items-center h-20">
+            <nav className="max-w-7xl mx-auto flex justify-between items-center">
 
                 {/* Logo/Site Title: Bean Board */}
                 <Link href="/" className="text-2xl font-serif font-bold tracking-widest hover:text-bb-green-moss transition-colors">
