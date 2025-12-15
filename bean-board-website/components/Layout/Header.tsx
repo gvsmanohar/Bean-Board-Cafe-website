@@ -3,6 +3,7 @@
 
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { motion } from 'framer-motion';
 
 const navItems = [
@@ -37,7 +38,14 @@ export default function Header() {
 
                 {/* Logo/Site Title: Bean Board */}
                 <Link href="/" className="text-2xl font-serif font-bold tracking-widest hover:text-bb-green-moss transition-colors">
-                    BEAN BOARD 🌿
+                    <Image
+                        src="bean-board-website/public/images/BeanBoard_Final_Logo 2_pages-to-jpg-0001.jpg"  // Replace with your exact filename (e.g., logo.png, beanboard-logo.svg)
+                        alt="Bean Board"
+                        width={40}      // Adjust based on your logo size
+                        height={40}     // Adjust based on your logo size
+                        className="h-10 w-auto"  // Tailwind for responsive sizing; matches text-2xl scale
+                        priority        // Optional: loads faster for above-the-fold logos
+                    />
                 </Link>
 
                 {/* Navigation Links */}
