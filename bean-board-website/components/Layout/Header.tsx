@@ -32,18 +32,18 @@ export default function Header() {
             initial={{ y: -50, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 1.0 }} // Delay fade-in until Hero text is done
-            className="fixed top-0 left-0 right-0 z-40 bg-bb-green-dark/70 backdrop-blur-sm shadow-lg text-bb-earth p-4"
+            className="fixed top-0 left-0 right-0 z-40 bg-bb-green-dark/70 backdrop-blur-sm shadow-lg text-bb-earth py-4"
         >
-            <nav className="max-w-7xl mx-auto flex justify-between items-center">
+            <nav className="max-w-7xl mx-auto flex justify-between items-center h-20">
 
                 {/* Logo/Site Title: Bean Board */}
                 <Link href="/" className="text-2xl font-serif font-bold tracking-widest hover:text-bb-green-moss transition-colors">
                     <Image
                         src="/images/BeanBoard_Final_Logo 2_pages-to-jpg-0001.jpg"  // Replace with your exact filename (e.g., logo.png, beanboard-logo.svg)
                         alt="Bean Board"
-                        width={120}      // Adjust based on your logo size
-                        height={120}     // Adjust based on your logo size
-                        className="h-16 w-auto"  // Tailwind for responsive sizing; matches text-2xl scale
+                        width={200}      // Adjust based on your logo size
+                        height={200}     // Adjust based on your logo size
+                        className="h-20 w-auto"  // Tailwind for responsive sizing; matches text-2xl scale
                         priority        // Optional: loads faster for above-the-fold logos
                     />
                 </Link>
