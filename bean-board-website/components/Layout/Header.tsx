@@ -40,13 +40,13 @@ export default function Header() {
                shadow-lg border border-white/10">
 
                 {/* Logo/Site Title: Bean Board */}
-                <Link href="/" className="text-2xl font-serif font-bold tracking-widest hover:text-bb-green-moss transition-colors">
+                <Link href="/" className="hover:opacity-90 transition">
                     <Image
                         src="/images/beanboard-logo.png"  // Replace with your exact filename (e.g., logo.png, beanboard-logo.svg)
                         alt="Bean Board"
                         width={260}      // Adjust based on your logo size
-                        height={40}     // Adjust based on your logo size
-                        className="h-16 w-40"  // Tailwind for responsive sizing; matches text-2xl scale
+                        height={80}     // Adjust based on your logo size
+                        className="h-16 w-auto object-contain"  // Tailwind for responsive sizing; matches text-2xl scale
                         priority        // Optional: loads faster for above-the-fold logos
                     />
                 </Link>
