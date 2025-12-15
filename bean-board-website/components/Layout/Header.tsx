@@ -19,7 +19,7 @@ const navItems = [
 
     {/* 🟢 This line uses the image you placed in /public/images */}
     <div
-        className="absolute inset-0 bg-cover bg-center opacity-60"
+        className="absolute inset-0 bg-cover bg-center"
         style={{ backgroundImage: 'url(/images/hero-forest.jpg)' }}
     />
 
