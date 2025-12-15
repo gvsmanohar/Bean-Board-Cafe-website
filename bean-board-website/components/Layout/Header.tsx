@@ -41,9 +41,9 @@ export default function Header() {
                     <Image
                         src="/images/BeanBoard_Final_Logo 2_pages-to-jpg-0001.jpg"  // Replace with your exact filename (e.g., logo.png, beanboard-logo.svg)
                         alt="Bean Board"
-                        width={40}      // Adjust based on your logo size
-                        height={40}     // Adjust based on your logo size
-                        className="h-10 w-auto"  // Tailwind for responsive sizing; matches text-2xl scale
+                        width={120}      // Adjust based on your logo size
+                        height={120}     // Adjust based on your logo size
+                        className="h-16 w-auto"  // Tailwind for responsive sizing; matches text-2xl scale
                         priority        // Optional: loads faster for above-the-fold logos
                     />
                 </Link>
