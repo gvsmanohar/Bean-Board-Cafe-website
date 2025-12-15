@@ -15,16 +15,16 @@ const navItems = [
 ];
 // components/Sections/Hero.tsx
 // ...
-<div className="relative h-screen w-full flex items-center justify-center overflow-hidden bg-bb-green-dark">
+// <div className="relative h-screen w-full flex items-center justify-center overflow-hidden bg-bb-green-dark">
 
-    {/* 🟢 This line uses the image you placed in /public/images */}
-    <div
-        className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: 'url(/images/hero-forest.jpg)' }}
-    />
+{/* 🟢 This line uses the image you placed in /public/images */ }
+//    <div
+//        className="absolute inset-0 bg-cover bg-center"
+//        style={{ backgroundImage: 'url(/images/hero-forest.jpg)' }}
+//    />
 
-    {/* ... rest of the component ... */}
-</div>
+{/* ... rest of the component ... */ }
+//</div>
 export default function Header() {
     return (
         // Fixed Header that fades in after a short delay
