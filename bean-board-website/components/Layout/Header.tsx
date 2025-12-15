@@ -20,19 +20,13 @@ export default function Header() {
             initial={{ y: -40, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.3 }}
-            className="fixed top-4 left-0 right-0 z-40 flex justify-center pointer-events-none"
+            className="fixed top-0 left-0 right-0 z-40 bg-[#fff9eb] border-b border-black/5"
         >
-            {/* Pill container */}
-            <nav
-                className="pointer-events-auto flex items-center justify-between gap-10
-                   px-8 py-3 rounded-full
-                   bg-[#e3ddcf] shadow-[0_18px_35px_rgba(0,0,0,0.25)]"
-                style={{ maxWidth: '960px', width: 'calc(100% - 3rem)' }}
-            >
+            <nav className="max-w-6xl mx-auto flex items-center justify-between px-6 py-3">
                 {/* Logo */}
                 <Link href="/" className="flex items-center gap-3">
                     <Image
-                        src="/images/beanboard-logo.png"
+                        src="/images/beanboard-logo.png"   // or transparent version
                         alt="Bean Board"
                         width={140}
                         height={40}
