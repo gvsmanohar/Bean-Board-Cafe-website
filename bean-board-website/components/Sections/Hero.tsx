@@ -14,10 +14,10 @@ export default function Hero({ title, subtitle }: HeroProps) {
         <div className="relative h-screen w-full flex items-center justify-center overflow-hidden bg-bb-green-dark">
 
             {/* Placeholder for the Biophilic Background Image/Video. Add your image to /public/images/hero-forest.jpg */}
-            <div
-                className="absolute inset-0 bg-cover bg-center opacity-60"
-                style={{ backgroundImage: 'url(/images/hero-forest.jpg)' }}
-            />
+            {/* <div */}
+            {/* className="absolute inset-0 bg-cover bg-center opacity-60" */}
+            {/* style={{ backgroundImage: 'url(/images/hero-forest.jpg)' }} */}
+            {/* /> */}
             {/* Example: A dark overlay to make text pop, like filtered light */}
             <div className="absolute inset-0 bg-bb-green-dark/60" />
 
